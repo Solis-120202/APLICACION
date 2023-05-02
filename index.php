@@ -9,18 +9,18 @@
     <script src="js/bootstrap.mi.js"></script>
 </head>
 <body>
-    <form>
+    <form method="POST" action="registrar.php">
         <div class="mb-3">
-            <label for="identificador" class="form-label">Identification</label>
+            <label for="identificador" class="form-label">identificador</label>
             <input type="text" class="form-control" id="identificador" name="identificador">
         </div>
         <div class="mb-3">
-            <label for="nombre" class="form-label">Name</label>
-            <input type="text" class="form-control" id="nombre">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre">
         </div>
         <div class="mb-3">
-            <label for="detalle" class="form-label">Detail</label>
-            <input type="text" class="form-control" id="detalle">
+            <label for="detalle" class="form-label">Detalle</label>
+            <input type="text" class="form-control" id="detalle" name="detalle">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>    
